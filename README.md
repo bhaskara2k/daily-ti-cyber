@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎡 Daily TI&Cyber
 
-# Run and deploy your AI Studio app
+Uma ferramenta profissional para reuniões diárias (Dailies) com foco em gamificação, transparência e eficiência.
 
-This contains everything you need to run your app locally.
+## ✨ Funcionalidades
 
-View your app in AI Studio: https://ai.studio/apps/drive/1g_UzedurCisALUQWEgST-ZXnxe8nmPx7
+- **Roleta Prêmium**: Sorteio de membros da equipe com animações e efeitos sonoros de alta fidelidade.
+- **Gestão de Setores**: Seleção entre diferentes áreas (Service Desk, Sistemas, Cibersegurança) com listas pré-definidas.
+- **Modo Ausente**: Marque membros como "Ausente/Férias" sem excluí-los da lista para que não sejam sorteados.
+- **Meta de Rodadas**: Defina um limite de quantas pessoas devem falar hoje (1, 3, ou todos).
+- **Gamificação**: Explosão de confetes ao sortear e tela de resumo "Daily Finalizada" ao concluir a meta.
+- **Totalmente Personalizável**: Adicione membros temporários ou edite permanentemente os setores via interface.
 
-## Run Locally
+## 🚀 Como Rodar Localmente
 
-**Prerequisites:**  Node.js
+1. **Instale as dependências**:
+   ```bash
+   npm install
+   ```
 
+2. **Inicie o servidor de desenvolvimento**:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. **Acesse**: `http://localhost:3005`
+
+## 🛠️ Tecnologias
+
+- **React 19** + **Vite**
+- **Tailwind CSS** para estilização.
+- **Lucide React** para ícones.
+- **Canvas Confetti** para animações.
+- **Suporte a Áudio**: Efeitos sonoros imersivos.
+
+---
+Desenvolvido para otimizar as reuniões diárias do time de TI & Cyber.
