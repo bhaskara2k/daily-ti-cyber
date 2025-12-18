@@ -71,7 +71,7 @@ export const Wheel: React.FC<WheelProps> = ({ members, onWinner, isSpinning, set
   // Use BASE_URL to ensure paths work correctly on GitHub Pages (/daily-ti-cyber/) and localhost (/)
   const baseUrl = import.meta.env.BASE_URL || '/';
   const spinSound = useRef(new Audio(`${baseUrl}spin.mp3`));
-  const winSound = useRef(new Audio(`${baseUrl}win.mp3`));
+  const winSound = useRef(new Audio('https://cdn.pixabay.com/audio/2021/08/04/audio_12b0c7443c.mp3'));
 
   React.useEffect(() => {
     spinSound.current.volume = 0.5;
