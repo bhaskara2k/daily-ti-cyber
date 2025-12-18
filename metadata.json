@@ -1,0 +1,7 @@
+{
+  "name": "Daily Roulette & Sync",
+  "description": "A professional tool for team daily meetings featuring a customizable speaker roulette, task logging, and AI-powered meeting summaries and icebreakers.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
